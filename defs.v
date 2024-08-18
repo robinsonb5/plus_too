@@ -1,0 +1,2 @@
+`define USE_E_CLKEN
+`define FX68K_ALTERA_REGS

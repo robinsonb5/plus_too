@@ -260,17 +260,18 @@ wire [3:0] key = 4'd0;
 		.inclk0	( CLOCK_27),
 		.c0		( clk64			),
 		.c1     ( clk32         ),
+		.c2     ( SDRAM_CLK     ),
 		.locked	( pll_locked	)
 	);
 
-	assign SDRAM_CLK = clk64;
+//	assign SDRAM_CLK = clk64;
 	// the configuration string is returned to the io controller to allow
 	// it to control the menu on the OSD
 
 	parameter CONF_STR = {
 		"PLUS_TOO;;",
-		"F1,DSK;",
-		"F2,DSK;",
+		"F1,DSK,Load .DSK image (1st drive);",
+		"F2,DSK,Load .DSK image (2nd drive);",
 		`SEP
 		"S0,IMGVHDHD?,Mount SCSI6;",
 		"S1,IMGVHDHD?,Mount SCSI5;",

@@ -7,3 +7,6 @@
 [submodule "fx68k"]
 	path = fx68k
 	url = https://github.com/mist-devel/fx68k.git
+[submodule "DeMiSTify"]
+	path = DeMiSTify
+	url = https://github.com/robinsonb5/DeMiSTify
