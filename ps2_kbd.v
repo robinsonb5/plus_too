@@ -661,7 +661,7 @@ module ps2_kbd(
 			  9'h172:		keymac[8:0] <= 9'h111;	//ARROW DOWN
 			  9'h173:		keymac[8:0] <= 9'h07b;
 			  9'h174:		keymac[8:0] <= 9'h105;	//ARROW RIGHT
-			  9'h175:		keymac[8:0] <= 9'h10b;	//ARROW UP
+			  9'h175:		keymac[8:0] <= 9'h11b;	//ARROW UP
 			  9'h176:		keymac[8:0] <= 9'h07b;
 			  9'h177:		keymac[8:0] <= 9'h07b;
 			  9'h178:		keymac[8:0] <= 9'h07b;
